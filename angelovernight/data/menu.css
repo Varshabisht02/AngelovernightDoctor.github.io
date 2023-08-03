@@ -1,0 +1,74 @@
+.menu-container {
+    text-align:center;
+    background:#FFFFFF;
+    width: 990px;
+    height:35px;
+    margin:0 auto;
+    z-index: 2;
+    position:relative;
+    padding:0;
+    }
+    .mainmenu {
+    text-align:left;
+    font-family: Arial;
+    position:relative;
+    font-size:1.20em;
+    background:transparent;
+    width:990px;
+    height:35px;
+    margin:0 auto;
+    font-weight: bold;
+    padding:0;
+    }
+    .mainmenu ul {
+    padding:0; margin:0; list-style-type: none;
+    }
+    .mainmenu ul li {
+    float:left; position:relative;
+    }
+    
+    .mainmenu ul li a, .mainmenu ul li a:visited {
+    display:block; text-decoration:none; height:35px; color:#000; line-height:35px; padding-right: 20px; color: #555;
+    }
+    
+    .mainmenu ul li a img
+    {
+    float:left;
+    margin: 5px 5px 0 5px;
+    border: none;
+    }
+    
+    .mainmenu ul li ul {
+    visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden;
+    }
+    
+    /* fist line style for IE7 and non-IE browsers and the second line for IE5.5 and IE6 */
+    .mainmenu ul li:hover a,
+    .mainmenu ul li a:hover {
+    color:#1c4e82; text-decoration:none; border:0; background: #fff;
+    }
+    .mainmenu ul li:hover ul,
+    .mainmenu ul li a:hover ul {
+    visibility:visible; width:auto; height:auto; position:absolute; top:35px; left:-1px; background:#fff; border:1px solid #E5E5E5; overflow:visible;
+    }
+    .mainmenu ul li:hover ul li a,
+    .mainmenu ul li a:hover ul li a {
+    display:block; background:#fff; text-decoration:none; color:#555; height:auto; line-height:1.5em; padding:5px 10px 5px 0px; width:200px;
+    }
+    .mainmenu ul li:hover ul li a.drop,
+    .mainmenu ul li a:hover ul li a.drop {
+    display:block; color:#1c4e82; height:auto; line-height:1.5em; padding:5px 10px 5px 35px; width:200px;
+    }
+    .mainmenu ul li:hover ul li ul,
+    .mainmenu ul li a:hover ul li a ul {
+    visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden;
+    }
+    .mainmenu ul li:hover ul li a:hover,
+    .mainmenu ul li a:hover ul li a:hover {
+    color:#000; text-decoration:underline; background: #EAF4FD;
+    }
+    
+    .mainmenu ul li ul li a img {
+    float:left;
+    margin: 0 5px 0 5px;
+    }
